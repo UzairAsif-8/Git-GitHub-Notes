@@ -30,4 +30,8 @@ Next is to check the status of the project that how it is working like if we hav
 <br>
 Status in git.....There are four types of status in git. First is untracked (It means that git doesn't recognized that files or new file that git hasn't tracked yet). Second is Modified (It means that you have modified something in that file ). Then comes Unmodified (It means that files are as is is and you haven't modified them yet). The last is staged (Now there are two stages when you add a new file (Means it would show untracked) or change somehting in file (Means it show modified), one is add and one is commit. Now when you dont add it and dont commit it, it is in modified or untracked stage but when you add it it means that now it has passed one stage and now the net is the commit and this stage called staged where the files is done and not comitted yet)
 <br>
-Now the thing is that how to add changes (Adding means that it sends to staged state...Already stated earlier). To add changes wo write git add filename and it would add changes but if we have lot of files and we have to add all the changes at once we write git "add ." it add all at once.
+Now the thing is that how to add changes (Adding means that it sends to staged state...Already stated earlier). To add changes wo write git add filename and it would add changes but if we have lot of files and we have to add all the changes at once we write git "add ." it add all at once and that modified that was appearing red will turn into green means that it is now added
+<br>
+Now to commit a file we write git commit -m "Some Message". In some message area you write meaning full info of the changes
+<br>
+Now the changes that we have done here are limited to local like they are not reflecting on GitHub. So to send them to GitHub we write puh command that means to Push local repo content to remote repo (GitHub). So we write git push origin main

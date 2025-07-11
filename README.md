@@ -22,7 +22,7 @@ Now If we want to change our directory like currently we are in GITDEMO folder b
 <br>
 If we want to see all the files present in that folder we write ls that means list Files
 <br>
-If we want to see hidden files we want to write ls --a means list all
+If we want to see hidden files we want to write ls -a means list all
 <br>
 To clear a terminal just write clear
 <br>
@@ -54,3 +54,7 @@ Now if you are in branch and you have made changes to the file in that branch an
 So, you fold the paper, put it in your drawer (stash), go to the meeting, then come back and pull it out again (stash pop).
 <br>
 Now if we want to see the difference between two branches we can compare them by using git diff branch-name
+<br>
+Now if you want to merge two branches there are two methods first is the pull request on github and second is the git merge branch-name command and after merging if you want to delete branch write git branch -d "Branch-name" and that branch would b=get deleted and then write git fetch -p and with this will remove all the references of the remote deleted branches
+<br>
+Now if you want to see the changes that happened in github when you merged by pull request you need to write git pull origin main and this will pull all the changes and details

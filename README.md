@@ -35,3 +35,7 @@ Now the thing is that how to add changes (Adding means that it sends to staged s
 Now to commit a file we write git commit -m "Some Message". In some message area you write meaning full info of the changes
 <br>
 Now the changes that we have done here are limited to local like they are not reflecting on GitHub. So to send them to GitHub we write puh command that means to Push local repo content to remote repo (GitHub). So we write git push origin main
+<br>
+Now if we start making our project from local so now we make a new folder and in order to link our that folder with git we use command git init when we write this while we are in a folder so that folder become a git repo
+<br>
+Now in order to upload out this Local Git repo in GitHub first we need to make a new repository in GitHub. Then we copy the link of that repo and write a command in git git remote add origin "link of that GitHub Repo". Here the word origin is the name for that link of GitHub Repo. Then we write "git remote -v" and at means that show all the links to which my Local git repo is connected to

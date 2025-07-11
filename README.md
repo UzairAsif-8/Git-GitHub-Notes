@@ -38,4 +38,19 @@ Now the changes that we have done here are limited to local like they are not re
 <br>
 Now if we start making our project from local so now we make a new folder and in order to link our that folder with git we use command git init when we write this while we are in a folder so that folder become a git repo
 <br>
-Now in order to upload out this Local Git repo in GitHub first we need to make a new repository in GitHub. Then we copy the link of that repo and write a command in git git remote add origin "link of that GitHub Repo". Here the word origin is the name for that link of GitHub Repo. Then we write "git remote -v" and at means that show all the links to which my Local git repo is connected to
+Now in order to upload out this Local Git repo in GitHub first we need to make a new repository in GitHub. Then we copy the link of that repo and write a command in git git remote add origin "link of that GitHub Repo". Here the word origin is the name for that link of GitHub Repo. Then we write "git remote -v" and at means that show all the links to which my Local git repo is connected to. Then we can also see in which branch we are by writing command git branch and we can also change the branch name by using git branch -M and then we push our repo to github using command git push origin main
+<br>
+Then after that we can also add our README.md file and then do same process for that
+<br>
+Now we can check branch name with git branch and we can change branch name with git branch -m branch-name. Now if we want to make a new branch and switch to it we write a command git checkout -b new-branch-name and then we will be directed to that new branch and if we want to switch to a branch we write git checkout branch-name
+<br>
+Now if we want to delete a branch we write git branch -d branch-name and it would delete a branch but remember that you cannot delete a branch that you are already in first you have to go to another branch using git chrckout branch-name and then we can delete that
+<br>
+If you want to push your branch so you will write git push origin "That specific branch name"
+<br>
+If you have two branches and you are working on a same file that other branch has so you cannot switch to other branch without adding and commenting those changes in the present branch and same you cannot push to another branch while staying in another until and unless you have fully commited that specific branch.
+<br>
+Now if you are in branch and you have made changes to the file in that branch and other branch has also same file so you cannot switch to another branch without commiting it but wait here is another way that is called stashing. In this when you write git stash it temporaily hides those changes and now you can switch to another branch and when you come back you can simply write git stash pop and there you go.... on the same stage that you were before.......Imagine you're writing a LETTER, but suddenly you need to attend a meeting (switch branch). You don’t want to save it fully (commit), but also don’t want to throw it away.
+So, you fold the paper, put it in your drawer (stash), go to the meeting, then come back and pull it out again (stash pop).
+<br>
+Now if we want to see the difference between two branches we can compare them by using git diff branch-name

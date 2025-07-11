@@ -58,3 +58,13 @@ Now if we want to see the difference between two branches we can compare them by
 Now if you want to merge two branches there are two methods first is the pull request on github and second is the git merge branch-name command and after merging if you want to delete branch write git branch -d "Branch-name" and that branch would b=get deleted and then write git fetch -p and with this will remove all the references of the remote deleted branches
 <br>
 Now if you want to see the changes that happened in github when you merged by pull request you need to write git pull origin main and this will pull all the changes and details
+<br>
+Now if we have mistakenly made some changes and add them and now we want to reset them we write git reset --file-name or if we want to reset changes in multiple files then we can just write git reset
+<br>
+If we made a change added it and commited it then we can reset them using git HEAD~1 and this would reset them and if we can to restore our code also we can write git checkout -- file-name(This only works when you committed it not just added)
+<br>
+You can also view all commits using git log
+<br>
+If we want to go back to two three or four or any commit before like reset last 2 3 etc commits we write git reset and then the hash code of the commit. Hash code is the long code viewed when we write git log and if we want to reset commit not just on terminal but in code also we write git reset --hard "Hash Code"
+<br>
+Fork is basically when you want to copy someones project or repository in your account and then you can edit it or add new features clear bugs and then send them pull request for this fix and you can become a contributor.

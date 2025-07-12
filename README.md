@@ -68,3 +68,10 @@ You can also view all commits using git log
 If we want to go back to two three or four or any commit before like reset last 2 3 etc commits we write git reset and then the hash code of the commit. Hash code is the long code viewed when we write git log and if we want to reset commit not just on terminal but in code also we write git reset --hard "Hash Code"
 <br>
 Fork is basically when you want to copy someones project or repository in your account and then you can edit it or add new features clear bugs and then send them pull request for this fix and you can become a contributor.
+<br>
+Best regards, 
+<br>
+**Author:** Muhammad Uzair Asif
+
+<br>
+**Happy Coding Everyone❤️**

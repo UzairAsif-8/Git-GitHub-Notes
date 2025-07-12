@@ -69,9 +69,10 @@ If we want to go back to two three or four or any commit before like reset last 
 <br>
 Fork is basically when you want to copy someones project or repository in your account and then you can edit it or add new features clear bugs and then send them pull request for this fix and you can become a contributor.
 <br>
+
 Best regards, 
 <br>
 **Author:** Muhammad Uzair Asif
 
 <br>
-**Happy Coding Everyone❤️**
+Happy Coding Everyone❤️
